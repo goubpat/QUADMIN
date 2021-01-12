@@ -1,0 +1,12 @@
+Basic steps to get QUADMIN working :
+1- Instal VC++ redsitrubable files :
+	- Go to https://visualstudio.microsoft.com/downloads/
+ 	- Under "Other Tools, Frameworks, and Redistributables, scroll to Microsoft Visual C++ redistributable for Visual Studio 2019
+	- Install both x64 (64-bit version) and x86 (32-bit version), do not install ARM64 version
+2- Unzip FAME_STAT_METHOD_EXAMPLE.zip file (example C:\FAME_STAT_METHOD_EXAMPLE)
+3- Note the path where QUADMIN subfolder is located  (example C:\FAME_STAT_METHOD_EXAMPLE\QUADMIN)
+4- Open the FAME project file (STAT_METHOD_EXAMPLE.masp)
+5- Edit the quadmin.pro Procedural files, do a search for "GOUBRAN"
+6- Replace the path "C:\Users\patrick.goubran\Desktop\FAME_STAT_METHOD_EXAMPLE\FAME_STAT_METHOD_EXAMPLE\QUADMIN" with the path noted in #3
+7- Right click on quadmin.pro and select Compile and Load
+8- Right click on fame_statmethods.inp file and select "Input this file"
